@@ -75,8 +75,8 @@ int successor(bst_t *node);
 void bal(avl_t **tree);
 avl_t *sorted_array_to_avl(int *array, size_t size);
 void sata_helper(avl_t **root, int *array, size_t lo, size_t hi);
-
-
+int binary_tree_is_heap(const binary_tree_t *tree);
+int btih_helper(const binary_tree_t *tree);
 
 
 #endif /* _BINARY_TREES_H_ */

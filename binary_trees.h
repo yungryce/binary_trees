@@ -73,7 +73,8 @@ bst_t *bst_remove(bst_t *root, int value);
 int remove_type(bst_t *root);
 int successor(bst_t *node);
 void bal(avl_t **tree);
-
+avl_t *sorted_array_to_avl(int *array, size_t size);
+void sata_helper(avl_t **root, int *array, size_t lo, size_t hi);
 
 
 

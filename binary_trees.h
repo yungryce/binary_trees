@@ -65,8 +65,8 @@ int two_children(bst_t *root);
 int remove_type(bst_t *root);
 int binary_tree_is_avl(const binary_tree_t *tree);
 int avl_helper(const binary_tree_t *tree, int min, int max);
-
-
+avl_t *avl_insert(avl_t **tree, int value);
+avl_t *r_insert_node(avl_t **tree, avl_t *parent, avl_t **new, int nval);
 
 
 #endif /* _BINARY_TREES_H_ */

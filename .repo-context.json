@@ -1,0 +1,133 @@
+{
+  "project_identity": {
+    "name": "binary_trees",
+    "type": "educational",
+    "scope": "algorithms",
+    "is_independent": true,
+    "version": "1.0.0",
+    "description": "Comprehensive implementation of binary tree data structures and algorithms including basic binary trees, binary search trees (BST), AVL trees, and binary heaps with complete CRUD operations and traversal methods",
+    "curriculum_stage": "intermediate",
+    "related_projects": ["sorting_algorithms", "search_algorithms", "data_structures"]
+  },
+  "tech_stack": {
+    "primary_language": "c",
+    "languages": ["c"],
+    "frameworks_libraries": [],
+    "tools": ["gcc", "make", "valgrind", "gdb"],
+    "paradigms": ["procedural", "structured"],
+    "concepts": ["data_structures", "algorithms", "memory_management", "pointers"]
+  },
+  "skill_manifest": {
+    "technical_skills": [
+      "Binary Tree Implementation",
+      "Binary Search Tree Operations",
+      "AVL Tree Balancing",
+      "Binary Heap Management",
+      "Tree Traversal Algorithms",
+      "Memory Management in C",
+      "Pointer Manipulation",
+      "Algorithm Complexity Analysis",
+      "Recursive Programming",
+      "Data Structure Design"
+    ],
+    "learning_objectives": [
+      "Understand binary tree data structures and their applications",
+      "Implement various tree traversal methods (preorder, inorder, postorder, level-order)",
+      "Master binary search tree operations (insert, delete, search)",
+      "Learn AVL tree self-balancing mechanisms",
+      "Implement binary heap operations for priority queues",
+      "Analyze time and space complexity of tree algorithms",
+      "Apply recursive problem-solving techniques",
+      "Manage dynamic memory allocation for tree structures"
+    ],
+    "competency_areas": {
+      "data_structures": ["binary_trees", "bst", "avl_trees", "heaps"],
+      "algorithms": ["traversal", "search", "insertion", "deletion", "balancing"],
+      "programming": ["c_language", "pointers", "recursion", "memory_management"],
+      "problem_solving": ["tree_problems", "recursive_thinking", "algorithm_design"]
+    }
+  },
+  "educational_context": {
+    "program": "ALX Software Engineering",
+    "specialization": "Low-Level Programming & Algorithms",
+    "difficulty_level": "intermediate",
+    "prerequisites": ["C programming", "pointers", "memory management", "basic algorithms"],
+    "estimated_hours": 60,
+    "key_concepts": [
+      "Binary tree node structure",
+      "Tree traversal methods",
+      "Binary search tree properties",
+      "AVL tree rotations",
+      "Heap property maintenance",
+      "Time complexity analysis"
+    ]
+  },
+  "project_structure": {
+    "main_files": [
+      "binary_trees.h",
+      "binary_tree_print.c"
+    ],
+    "implementation_files": [
+      "0-binary_tree_node.c",
+      "1-binary_tree_insert_left.c",
+      "2-binary_tree_insert_right.c",
+      "3-binary_tree_delete.c",
+      "6-binary_tree_preorder.c",
+      "7-binary_tree_inorder.c",
+      "8-binary_tree_postorder.c",
+      "101-binary_tree_levelorder.c",
+      "111-bst_insert.c",
+      "113-bst_search.c",
+      "114-bst_remove.c",
+      "121-avl_insert.c",
+      "123-avl_remove.c",
+      "131-heap_insert.c",
+      "133-heap_extract.c"
+    ],
+    "test_files": [
+      "tests/"
+    ],
+    "complexity_files": [
+      "115-O",
+      "125-O",
+      "135-O"
+    ]
+  },
+  "features": {
+    "core": [
+      "Binary tree node creation and management",
+      "Tree insertion and deletion operations",
+      "Multiple traversal algorithms",
+      "Binary search tree operations",
+      "Tree property validation",
+      "Memory management for tree structures"
+    ],
+    "advanced": [
+      "AVL tree self-balancing",
+      "Binary heap implementation",
+      "Complex tree rotations",
+      "Efficiency analysis",
+      "Advanced tree algorithms",
+      "Optimized search operations"
+    ]
+  },
+  "assessment_criteria": {
+    "code_quality": ["betty_style", "memory_leaks", "edge_cases"],
+    "functionality": ["correct_implementation", "efficient_algorithms"],
+    "understanding": ["complexity_analysis", "algorithm_explanation"]
+  },
+  "career_preparation": {
+    "industry_relevance": "Essential for technical interviews and system design",
+    "job_roles": ["Software Engineer", "Backend Developer", "System Architect", "Algorithm Engineer"],
+    "interview_topics": ["Tree problems", "Data structure design", "Algorithm optimization"],
+    "real_world_applications": ["Database indexing", "File systems", "Expression parsing", "Priority queues"]
+  },
+  "metadata": {
+    "created": "2024-01-15",
+    "last_updated": "2025-06-23",
+    "version": "1.0.0",
+    "maintainer": "Chigbu Joshua",
+    "license": "ALX Educational License",
+    "educational_program": "ALX Software Engineering"
+  }
+}
